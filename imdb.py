@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import streamlit as st 
+import tensorflow as tf
 from tensorflow.keras.datasets import imdb
 from tensorflow.keras.preprocessing import sequence 
 from tensorflow.keras.models import load_model
